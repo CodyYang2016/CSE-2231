@@ -1,0 +1,134 @@
+import java.util.ArrayList;
+import java.util.Random;
+
+public class Bank {
+
+    private String name;
+
+    private ArrayList<User> users;
+
+    private ArrayList<Account> accounts;
+
+    /**
+     * Create a bank
+     *
+     * @param Name
+     *            name of bank
+     */
+    public Bank(String Name) {
+        this.name = Name;
+        this.users = new ArrayList<User>();
+        this.accounts = new ArrayList<Account>();
+    }
+
+    /**
+     * Generate a unique UUID for a user
+     *
+     * @return uuid
+     */
+    public String getNewUserUUID() {
+
+        // initialize
+        String uuid;
+        Random rng = new Random();
+        int len = 6;
+        boolean nonUnique;
+
+        // generate until unique
+        do {
+
+            //generate a new unique
+            uuid = "";
+            for (int i = 0; i < len; i++) {
+                uuid += ((Integer) rng.nextInt(10)).toString();
+            }
+            nonUnique = false;
+            // check uniqueness
+            for (User u : this.users) {
+                if (uuid.compareTo(u.getUUID()) == 0) {
+                    nonUnique = true;
+                    break;
+                }
+            }
+
+        } while (nonUnique);
+
+        return uuid;
+    }
+
+    public String getNewAccountUUID() {
+
+        // initialize
+        String uuid;
+        Random rng = new Random();
+        int len = 12;
+        boolean nonUnique;
+
+        // generate until unique
+        do {
+
+            //generate a new unique
+            uuid = "";
+            for (int i = 0; i < len; i++) {
+                uuid += ((Integer) rng.nextInt(10)).toString();
+            }
+            nonUnique = false;
+            // check uniqueness
+            for (Account a : this.accounts) {
+                if (uuid.compareTo(a.getUUID()) == 0) {
+                    nonUnique = true;
+                    break;
+                }
+            }
+
+        } while (nonUnique);
+
+        return uuid;
+
+    }
+
+    public void addAccount(Account anAccount) {
+        this.accounts.add(anAccount);
+    }
+
+    /**
+     * Creating accounts for users
+     *
+     * @param firstName
+     *            User's firstname
+     * @param lastName
+     *            user's Last name
+     * @param pin
+     *            User's chosen pin
+     * @return new User object
+     */
+    public User addUser(String firstName, String lastName, String pin) {
+
+        // create a New User
+        User newUser = new User(firstName, lastName, pin, this);
+        this.users.add(newUser);
+
+        // create a savings account
+        Account newAccount = new Account("Savings", newUser, this);
+
+        // add to holder, Bank Lists
+
+        newUser.addAccount(newAccount);
+        this.addAccount(newAccount);
+
+        return newUser;
+    }
+
+    public User userLogin(String userID, String pin) {
+
+        // find user
+        for (User u : this.users) {
+            if (u.getUUID().compareTo(userID) == 0 && u.validatePin(pin)) {
+                return u;
+            }
+        }
+
+        return null;
+    }
+
+}

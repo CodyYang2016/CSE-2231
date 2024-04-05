@@ -1,0 +1,55 @@
+import java.util.ArrayList;
+
+public class Account {
+    
+    /**
+     * The name of account
+     */
+    private String name;
+    
+    /**
+     * Account ID number
+     */
+    private String uuid;
+    
+    /**
+     *User object that holds the Account 
+     */
+    private User holder;
+    
+    /**
+     * List of transactions for this account
+     */
+    private ArrayList<Transaction> transactions;
+    
+    /**
+     * Account constructor
+     * @param name the name of the account
+     * @param theHolder the User object that holds this account
+     * @param theBank the bank that issues the account
+     */
+    public Account(String name, User theHolder, Bank theBank) {
+        
+        // name and holder
+        this.name = name;
+        this.holder = theHolder;
+        
+        // new UUID
+        this.uuid = theBank.getNewAccountUUID();
+        
+        // initialize transaction List
+        this.transactions = new ArrayList<Transaction>();
+        
+ 
+        
+    }
+    
+    /**
+     * account UUID
+     * @return uuid
+     */
+    public String getUUID() {
+        return this.uuid;
+    }
+    
+}

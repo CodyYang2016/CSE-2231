@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="15" timestamp="1699990201451" analysisTimestamp="1699990200344" release="">
+  <Project projectName="BLParser">
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\BLParser\bin\Statement1Parse1.class</Jar>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\BLParser\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\BLParser\src</SrcDir>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\BLParser\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="13" removedByChange="true">
+    <Class classname="Program1Parse1">
+      <SourceLine classname="Program1Parse1" sourcefile="Program1Parse1.java" sourcepath="Program1Parse1.java"/>
+    </Class>
+    <Method classname="Program1Parse1" name="parse" signature="(Lcomponents/queue/Queue;)V" isStatic="false">
+      <SourceLine classname="Program1Parse1" start="119" end="192" startBytecode="0" endBytecode="205" sourcefile="Program1Parse1.java" sourcepath="Program1Parse1.java"/>
+    </Method>
+    <LocalVariable name="instrOrBeginToken" register="7" pc="342" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Program1Parse1" start="164" end="164" startBytecode="340" endBytecode="340" sourcefile="Program1Parse1.java" sourcepath="Program1Parse1.java"/>
+    <SourceLine classname="Program1Parse1" start="164" end="164" startBytecode="340" endBytecode="340" sourcefile="Program1Parse1.java" sourcepath="Program1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="instrOrBeginToken"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="6" last="14" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseIf" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="90" end="136" startBytecode="0" endBytecode="188" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="?" register="8" pc="377" role="LOCAL_VARIABLE_UNKNOWN"/>
+    <SourceLine classname="Statement1Parse1" start="122" end="122" startBytecode="377" endBytecode="377" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="122" end="122" startBytecode="377" endBytecode="377" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="?"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="6" last="8" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseIf" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="62" end="87" startBytecode="0" endBytecode="86" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="ifCondition" register="2" pc="120" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="71" end="71" startBytecode="119" endBytecode="119" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="71" end="71" startBytecode="119" endBytecode="119" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ifCondition"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="6" last="8" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseIf" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="62" end="87" startBytecode="0" endBytecode="86" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="penultimateToken" register="3" pc="168" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="80" end="80" startBytecode="167" endBytecode="167" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="80" end="80" startBytecode="167" endBytecode="167" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="penultimateToken"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="14" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseIf" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="90" end="136" startBytecode="0" endBytecode="188" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="thenToken" register="4" pc="179" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="103" end="103" startBytecode="177" endBytecode="177" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="103" end="103" startBytecode="177" endBytecode="177" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="thenToken"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="14" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseIf" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="90" end="136" startBytecode="0" endBytecode="188" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="tokenIf" register="2" pc="92" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="95" end="95" startBytecode="91" endBytecode="91" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="95" end="95" startBytecode="91" endBytecode="91" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="tokenIf"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="10">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseWhile" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="121" end="141" startBytecode="0" endBytecode="74" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="condition" register="2" pc="114" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="129" end="129" startBytecode="113" endBytecode="113" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="129" end="129" startBytecode="113" endBytecode="113" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="condition"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="14" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseWhile" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="159" end="190" startBytecode="0" endBytecode="109" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="doTokenString" register="4" pc="174" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="174" end="174" startBytecode="172" endBytecode="172" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="174" end="174" startBytecode="172" endBytecode="172" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="doTokenString"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="14" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseWhile" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="159" end="190" startBytecode="0" endBytecode="109" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="endWhile" register="6" pc="259" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="183" end="183" startBytecode="257" endBytecode="257" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="183" end="183" startBytecode="257" endBytecode="257" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="endWhile"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="13" last="14" removedByChange="true">
+    <Class classname="Statement1Parse1">
+      <SourceLine classname="Statement1Parse1" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Class>
+    <Method classname="Statement1Parse1" name="parseWhile" signature="(Lcomponents/queue/Queue;Lcomponents/statement/Statement;)V" isStatic="true">
+      <SourceLine classname="Statement1Parse1" start="159" end="190" startBytecode="0" endBytecode="109" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    </Method>
+    <LocalVariable name="whileToken" register="2" pc="280" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement1Parse1" start="188" end="188" startBytecode="279" endBytecode="279" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <SourceLine classname="Statement1Parse1" start="188" end="188" startBytecode="279" endBytecode="279" sourcefile="Statement1Parse1.java" sourcepath="Statement1Parse1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="whileToken"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 14 Nov 2023 14:30:00 -0500" total_classes="1" referenced_classes="37" total_bugs="1" total_size="105" num_packages="1" java_version="17.0.8.1" vm_version="17.0.8.1+1" cpu_seconds="5.75" clock_seconds="1.12" peak_mbytes="717.29" alloc_mbytes="2048.00" gc_seconds="0.03" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="105" priority_2="1">
+      <ClassStats class="Statement1Parse1" sourceFile="Statement1Parse1.java" interface="false" size="105" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="397" invocations="453" avgMicrosecondsPerInvocation="878" maxMicrosecondsPerInvocation="18196" standardDeviationMicrosecondsPerInvocation="1832"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="164" invocations="2" avgMicrosecondsPerInvocation="82197" maxMicrosecondsPerInvocation="147144" standardDeviationMicrosecondsPerInvocation="64947"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="115" invocations="457" avgMicrosecondsPerInvocation="253" maxMicrosecondsPerInvocation="1230" standardDeviationMicrosecondsPerInvocation="163"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="47" invocations="37" avgMicrosecondsPerInvocation="1273" maxMicrosecondsPerInvocation="9826" standardDeviationMicrosecondsPerInvocation="2191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="32" invocations="88" avgMicrosecondsPerInvocation="368" maxMicrosecondsPerInvocation="2362" standardDeviationMicrosecondsPerInvocation="353"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="27" invocations="417" avgMicrosecondsPerInvocation="64" maxMicrosecondsPerInvocation="1186" standardDeviationMicrosecondsPerInvocation="122"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="26" invocations="37" avgMicrosecondsPerInvocation="713" maxMicrosecondsPerInvocation="5209" standardDeviationMicrosecondsPerInvocation="998"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="17" invocations="15" avgMicrosecondsPerInvocation="1182" maxMicrosecondsPerInvocation="2231" standardDeviationMicrosecondsPerInvocation="590"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1699929146600" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1699929146603" release="" codeSize="95" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1699929778949" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1699929812199" release="" codeSize="65" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1699929827247" release="" codeSize="88" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1699930384146" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1699930435400" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1699930438519" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1699931109754" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1699931698831" release="" codeSize="101" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1699931752782" release="" codeSize="114" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1699934013276" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1699934042150" release="" codeSize="95" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1699934890646" release="" codeSize="245" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1699990146029" release="" codeSize="92" numClasses="1"/>
+  </History>
+</BugCollection>

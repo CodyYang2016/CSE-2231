@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="4" timestamp="1698021933553" analysisTimestamp="1698021932547" release="">
+  <Project projectName="ListWithRetreat">
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ListWithRetreat\bin\List3$List3Iterator.class</Jar>
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ListWithRetreat\bin\List3$Node.class</Jar>
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ListWithRetreat\bin\List3.class</Jar>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ListWithRetreat\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ListWithRetreat\test</SrcDir>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ListWithRetreat\src</SrcDir>
+  </Project>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="1" last="3" removedByChange="true">
+    <Class classname="List3$Node">
+      <SourceLine classname="List3$Node" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Class>
+    <Field classname="List3$Node" name="data" signature="Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="List3$Node" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Field>
+    <SourceLine classname="List3$Node" start="54" end="54" startBytecode="1" endBytecode="1" sourcefile="List3.java" sourcepath="List3.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="1" last="2" removedByChange="true">
+    <Class classname="List3$Node">
+      <SourceLine classname="List3$Node" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Class>
+    <Field classname="List3$Node" name="next" signature="LList3$Node;" isStatic="false">
+      <SourceLine classname="List3$Node" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Field>
+    <SourceLine classname="List3$Node" start="60" end="60" startBytecode="1" endBytecode="1" sourcefile="List3.java" sourcepath="List3.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="1" last="2" removedByChange="true">
+    <Class classname="List3$Node">
+      <SourceLine classname="List3$Node" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Class>
+    <Field classname="List3$Node" name="previous" signature="LList3$Node;" isStatic="false">
+      <SourceLine classname="List3$Node" sourcefile="List3.java" sourcepath="List3.java"/>
+    </Field>
+    <SourceLine classname="List3$Node" start="66" end="66" startBytecode="1" endBytecode="1" sourcefile="List3.java" sourcepath="List3.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 22 Oct 2023 20:45:32 -0400" total_classes="3" referenced_classes="29" total_bugs="0" total_size="172" num_packages="1" java_version="17.0.8.1" vm_version="17.0.8.1+1" cpu_seconds="5.61" clock_seconds="1.01" peak_mbytes="629.98" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="172">
+      <ClassStats class="List3" sourceFile="List3.java" interface="false" size="130" bugs="0"/>
+      <ClassStats class="List3$List3Iterator" sourceFile="List3.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="List3$Node" sourceFile="List3.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="181" invocations="420" avgMicrosecondsPerInvocation="432" maxMicrosecondsPerInvocation="15110" standardDeviationMicrosecondsPerInvocation="1007"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="147" invocations="2" avgMicrosecondsPerInvocation="73716" maxMicrosecondsPerInvocation="129125" standardDeviationMicrosecondsPerInvocation="55408"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="123" invocations="423" avgMicrosecondsPerInvocation="292" maxMicrosecondsPerInvocation="1401" standardDeviationMicrosecondsPerInvocation="213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="78" invocations="29" avgMicrosecondsPerInvocation="2697" maxMicrosecondsPerInvocation="37712" standardDeviationMicrosecondsPerInvocation="7328"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="36" invocations="51" avgMicrosecondsPerInvocation="710" maxMicrosecondsPerInvocation="5256" standardDeviationMicrosecondsPerInvocation="996"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="35" invocations="51" avgMicrosecondsPerInvocation="702" maxMicrosecondsPerInvocation="7436" standardDeviationMicrosecondsPerInvocation="1176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="28" invocations="35" avgMicrosecondsPerInvocation="803" maxMicrosecondsPerInvocation="8069" standardDeviationMicrosecondsPerInvocation="1557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="26" invocations="386" avgMicrosecondsPerInvocation="68" maxMicrosecondsPerInvocation="1473" standardDeviationMicrosecondsPerInvocation="132"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="25" invocations="112" avgMicrosecondsPerInvocation="229" maxMicrosecondsPerInvocation="1708" standardDeviationMicrosecondsPerInvocation="281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="21" invocations="34" avgMicrosecondsPerInvocation="641" maxMicrosecondsPerInvocation="6386" standardDeviationMicrosecondsPerInvocation="1191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="20" invocations="33" avgMicrosecondsPerInvocation="634" maxMicrosecondsPerInvocation="4618" standardDeviationMicrosecondsPerInvocation="877"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="20" invocations="35" avgMicrosecondsPerInvocation="595" maxMicrosecondsPerInvocation="2060" standardDeviationMicrosecondsPerInvocation="463"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="20" invocations="29" avgMicrosecondsPerInvocation="716" maxMicrosecondsPerInvocation="7261" standardDeviationMicrosecondsPerInvocation="1376"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1698018411439" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1698018411443" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1698019267623" release="" codeSize="144" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1698020296495" release="" codeSize="164" numClasses="3"/>
+  </History>
+</BugCollection>

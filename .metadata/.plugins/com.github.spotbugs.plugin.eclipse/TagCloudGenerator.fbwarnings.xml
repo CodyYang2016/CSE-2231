@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="7" timestamp="1701197907671" analysisTimestamp="1701197906962" release="">
+  <Project projectName="TagCloudGenerator">
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\TagCloudGenerator\bin\TagCloudGenerator$IntegerGT.class</Jar>
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\TagCloudGenerator\bin\TagCloudGenerator$StringAlphabetical.class</Jar>
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\TagCloudGenerator\bin\TagCloudGenerator.class</Jar>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\TagCloudGenerator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\TagCloudGenerator\src</SrcDir>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\TagCloudGenerator\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="5">
+    <Class classname="ProgramSkeleton">
+      <SourceLine classname="ProgramSkeleton" sourcefile="ProgramSkeleton.java" sourcepath="ProgramSkeleton.java"/>
+    </Class>
+    <Method classname="ProgramSkeleton" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ProgramSkeleton" start="34" end="52" startBytecode="0" endBytecode="40" sourcefile="ProgramSkeleton.java" sourcepath="ProgramSkeleton.java"/>
+    </Method>
+    <LocalVariable name="count" register="5" pc="77" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ProgramSkeleton" start="45" end="45" startBytecode="75" endBytecode="75" sourcefile="ProgramSkeleton.java" sourcepath="ProgramSkeleton.java"/>
+    <SourceLine classname="ProgramSkeleton" start="45" end="45" startBytecode="75" endBytecode="75" sourcefile="ProgramSkeleton.java" sourcepath="ProgramSkeleton.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="count"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="4" last="5" removedByChange="true">
+    <Class classname="TagCloudGenerator">
+      <SourceLine classname="TagCloudGenerator" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudGenerator" start="139" end="152" startBytecode="0" endBytecode="17" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <LocalVariable name="ascendingComparator" register="3" pc="37" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudGenerator" start="151" end="151" startBytecode="36" endBytecode="36" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator" start="151" end="151" startBytecode="36" endBytecode="36" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ascendingComparator"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_NEGATING_RESULT_OF_COMPARETO" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="6">
+    <Class classname="TagCloudGenerator$IntegerGT">
+      <SourceLine classname="TagCloudGenerator$IntegerGT" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+    <Method classname="TagCloudGenerator$IntegerGT" name="compare" signature="(Lcomponents/map/Map$Pair;Lcomponents/map/Map$Pair;)I" isStatic="false">
+      <SourceLine classname="TagCloudGenerator$IntegerGT" start="44" end="44" startBytecode="0" endBytecode="112" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="compareTo" signature="(Ljava/lang/Integer;)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="1477" end="1477" startBytecode="0" endBytecode="63" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="compareTo" signature="(Ljava/lang/Integer;)I" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Integer" start="1477" end="1477" startBytecode="0" endBytecode="63" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="TagCloudGenerator$IntegerGT" start="44" end="44" startBytecode="21" endBytecode="21" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    <SourceLine classname="TagCloudGenerator$IntegerGT" start="44" end="44" startBytecode="21" endBytecode="21" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="4">
+    <Class classname="TagCloudGenerator$IntegerGT">
+      <SourceLine classname="TagCloudGenerator$IntegerGT" start="1" end="44" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="6">
+    <Class classname="TagCloudGenerator$StringAlphabetical">
+      <SourceLine classname="TagCloudGenerator$StringAlphabetical" start="1" end="60" sourcefile="TagCloudGenerator.java" sourcepath="TagCloudGenerator.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 28 Nov 2023 13:58:26 -0500" total_classes="3" referenced_classes="48" total_bugs="4" total_size="129" num_packages="1" java_version="17.0.8.1" vm_version="17.0.8.1+1" cpu_seconds="3.23" clock_seconds="0.71" peak_mbytes="670.11" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="4">
+    <PackageStats package="" total_bugs="4" total_types="4" total_size="129" priority_2="4">
+      <ClassStats class="TagCloudGenerator" sourceFile="TagCloudGenerator.java" interface="false" size="113" bugs="0"/>
+      <ClassStats class="TagCloudGenerator$IntegerGT" sourceFile="TagCloudGenerator.java" interface="false" size="8" bugs="2" priority_2="2"/>
+      <ClassStats class="TagCloudGenerator$StringAlphabetical" sourceFile="TagCloudGenerator.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="146" invocations="2" avgMicrosecondsPerInvocation="73445" maxMicrosecondsPerInvocation="131794" standardDeviationMicrosecondsPerInvocation="58349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="123" invocations="536" avgMicrosecondsPerInvocation="229" maxMicrosecondsPerInvocation="7562" standardDeviationMicrosecondsPerInvocation="485"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="93" invocations="538" avgMicrosecondsPerInvocation="173" maxMicrosecondsPerInvocation="1098" standardDeviationMicrosecondsPerInvocation="141"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="37" invocations="48" avgMicrosecondsPerInvocation="780" maxMicrosecondsPerInvocation="6604" standardDeviationMicrosecondsPerInvocation="1557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="31" invocations="48" avgMicrosecondsPerInvocation="653" maxMicrosecondsPerInvocation="8667" standardDeviationMicrosecondsPerInvocation="1468"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="25" invocations="133" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="1189" standardDeviationMicrosecondsPerInvocation="202"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="19" invocations="15" avgMicrosecondsPerInvocation="1293" maxMicrosecondsPerInvocation="4986" standardDeviationMicrosecondsPerInvocation="1870"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="18" invocations="497" avgMicrosecondsPerInvocation="37" maxMicrosecondsPerInvocation="929" standardDeviationMicrosecondsPerInvocation="71"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="13" invocations="15" avgMicrosecondsPerInvocation="908" maxMicrosecondsPerInvocation="3778" standardDeviationMicrosecondsPerInvocation="1241"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="12" invocations="15" avgMicrosecondsPerInvocation="846" maxMicrosecondsPerInvocation="3446" standardDeviationMicrosecondsPerInvocation="1157"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="11" invocations="14" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="3999" standardDeviationMicrosecondsPerInvocation="1145"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1701135616311" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1701135616314" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1701135638868" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1701138335186" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1701138845892" release="" codeSize="51" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1701142579339" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1701197587689" release="" codeSize="130" numClasses="3"/>
+  </History>
+</BugCollection>

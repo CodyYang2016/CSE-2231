@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="11" timestamp="1698718229059" analysisTimestamp="1698718228344" release="">
+  <Project projectName="ProgramAndStatement">
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ProgramAndStatement\bin\Program2.class</Jar>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ProgramAndStatement\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ProgramAndStatement\test</SrcDir>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ProgramAndStatement\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="5">
+    <Class classname="Statement2">
+      <SourceLine classname="Statement2" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Class>
+    <Method classname="Statement2" name="assembleIfElse" signature="(Lcomponents/statement/StatementKernel$Condition;Lcomponents/statement/Statement;Lcomponents/statement/Statement;)V" isStatic="false">
+      <SourceLine classname="Statement2" start="261" end="285" startBytecode="0" endBytecode="139" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Method>
+    <LocalVariable name="children1" register="7" pc="262" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement2" start="277" end="277" startBytecode="260" endBytecode="260" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <SourceLine classname="Statement2" start="277" end="277" startBytecode="260" endBytecode="260" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="children1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1" last="1" removedByChange="true">
+    <Class classname="Statement2">
+      <SourceLine classname="Statement2" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Class>
+    <Method classname="Statement2" name="disassembleIf" signature="(Lcomponents/statement/Statement;)Lcomponents/statement/StatementKernel$Condition;" isStatic="false">
+      <SourceLine classname="Statement2" start="250" end="260" startBytecode="0" endBytecode="63" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Method>
+    <LocalVariable name="label" register="4" pc="120" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement2" start="257" end="257" startBytecode="118" endBytecode="118" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <SourceLine classname="Statement2" start="257" end="257" startBytecode="118" endBytecode="118" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="label"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1" last="1" removedByChange="true">
+    <Class classname="Statement2">
+      <SourceLine classname="Statement2" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Class>
+    <Method classname="Statement2" name="disassembleIfElse" signature="(Lcomponents/statement/Statement;Lcomponents/statement/Statement;)Lcomponents/statement/StatementKernel$Condition;" isStatic="false">
+      <SourceLine classname="Statement2" start="294" end="311" startBytecode="0" endBytecode="111" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Method>
+    <LocalVariable name="label" register="6" pc="213" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement2" start="307" end="307" startBytecode="211" endBytecode="211" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <SourceLine classname="Statement2" start="307" end="307" startBytecode="211" endBytecode="211" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="label"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1" last="1" removedByChange="true">
+    <Class classname="Statement2">
+      <SourceLine classname="Statement2" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Class>
+    <Method classname="Statement2" name="disassembleWhile" signature="(Lcomponents/statement/Statement;)Lcomponents/statement/StatementKernel$Condition;" isStatic="false">
+      <SourceLine classname="Statement2" start="333" end="344" startBytecode="0" endBytecode="63" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Method>
+    <LocalVariable name="label" register="4" pc="120" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement2" start="341" end="341" startBytecode="118" endBytecode="118" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <SourceLine classname="Statement2" start="341" end="341" startBytecode="118" endBytecode="118" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="label"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 30 Oct 2023 22:10:28 -0400" total_classes="1" referenced_classes="38" total_bugs="1" total_size="83" num_packages="1" java_version="17.0.8.1" vm_version="17.0.8.1+1" cpu_seconds="2.78" clock_seconds="0.72" peak_mbytes="996.29" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="83" priority_2="1">
+      <ClassStats class="Program2" sourceFile="Program2.java" interface="false" size="83" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="163" invocations="423" avgMicrosecondsPerInvocation="385" maxMicrosecondsPerInvocation="7487" standardDeviationMicrosecondsPerInvocation="797"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="136" invocations="429" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="3561" standardDeviationMicrosecondsPerInvocation="301"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="135" invocations="2" avgMicrosecondsPerInvocation="67792" maxMicrosecondsPerInvocation="113419" standardDeviationMicrosecondsPerInvocation="45627"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="29" invocations="38" avgMicrosecondsPerInvocation="786" maxMicrosecondsPerInvocation="7743" standardDeviationMicrosecondsPerInvocation="1644"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="26" invocations="94" avgMicrosecondsPerInvocation="286" maxMicrosecondsPerInvocation="5205" standardDeviationMicrosecondsPerInvocation="663"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="24" invocations="389" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="1344" standardDeviationMicrosecondsPerInvocation="124"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="38" avgMicrosecondsPerInvocation="596" maxMicrosecondsPerInvocation="6474" standardDeviationMicrosecondsPerInvocation="1136"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1698715626223" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1698715626228" release="" codeSize="282" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1698715669269" release="" codeSize="205" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1698715671231" release="" codeSize="205" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1698716471864" release="" codeSize="208" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1698716716283" release="" codeSize="206" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1698716767079" release="" codeSize="207" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1698717327149" release="" codeSize="202" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1698717352342" release="" codeSize="207" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1698717943567" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1698718198237" release="" codeSize="273" numClasses="3"/>
+  </History>
+</BugCollection>

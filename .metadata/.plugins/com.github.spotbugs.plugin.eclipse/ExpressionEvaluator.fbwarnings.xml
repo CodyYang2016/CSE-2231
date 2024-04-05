@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="2" timestamp="1698948527218" analysisTimestamp="1698948526050" release="">
+  <Project projectName="ExpressionEvaluator">
+    <Jar>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ExpressionEvaluator\bin\ExpressionEvaluator.class</Jar>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ExpressionEvaluator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest_2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\yangz\Desktop\CSE 2231\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ExpressionEvaluator\test</SrcDir>
+    <SrcDir>C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\ExpressionEvaluator\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 2 Nov 2023 14:08:45 -0400" total_classes="1" referenced_classes="15" total_bugs="0" total_size="57" num_packages="1" java_version="17.0.8.1" vm_version="17.0.8.1+1" cpu_seconds="5.28" clock_seconds="1.17" peak_mbytes="619.82" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="57">
+      <ClassStats class="ExpressionEvaluator" sourceFile="ExpressionEvaluator.java" interface="false" size="57" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="432" invocations="370" avgMicrosecondsPerInvocation="1169" maxMicrosecondsPerInvocation="14260" standardDeviationMicrosecondsPerInvocation="2191"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="163" invocations="2" avgMicrosecondsPerInvocation="81737" maxMicrosecondsPerInvocation="145817" standardDeviationMicrosecondsPerInvocation="64080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="121" invocations="371" avgMicrosecondsPerInvocation="328" maxMicrosecondsPerInvocation="1581" standardDeviationMicrosecondsPerInvocation="229"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="43" invocations="15" avgMicrosecondsPerInvocation="2922" maxMicrosecondsPerInvocation="14300" standardDeviationMicrosecondsPerInvocation="4528"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="35" invocations="12" avgMicrosecondsPerInvocation="2964" maxMicrosecondsPerInvocation="5103" standardDeviationMicrosecondsPerInvocation="1863"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="32" invocations="81" avgMicrosecondsPerInvocation="401" maxMicrosecondsPerInvocation="1829" standardDeviationMicrosecondsPerInvocation="349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="28" invocations="335" avgMicrosecondsPerInvocation="83" maxMicrosecondsPerInvocation="1049" standardDeviationMicrosecondsPerInvocation="141"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="15" avgMicrosecondsPerInvocation="1509" maxMicrosecondsPerInvocation="10512" standardDeviationMicrosecondsPerInvocation="2573"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1698948508241" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1698948508244" release="" codeSize="13" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ATM {
+    public static void main(String[] args) {
+
+        // init Scanner
+        Scanner sc = new Scanner(System.in);
+
+        //init Bank
+        System.out.println("What bank would you like to access?");
+        String s = sc.nextLine();
+        Bank theBank = new Bank(s);
+
+        // add User
+        System.out.println("What is your first name?");
+        String firstName = sc.nextLine();
+
+        System.out.println("What is your last name?");
+        String lastName = sc.nextLine();
+
+        System.out.println("Input your pin: ");
+        String pin = sc.nextLine();
+
+        User newUser = theBank.addUser(firstName, lastName, pin);
+
+        Account newAccount = new Account("Checking", newUser, theBank);
+        newUser.addAccount(newAccount);
+        theBank.addAccount(newAccount);
+
+    }
+}

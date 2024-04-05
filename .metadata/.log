@@ -1,0 +1,2568 @@
+!SESSION 2023-10-11 20:30:33.545 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 20:31:07.104
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 20:32:10.661
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-11 20:32:11.444
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-11 20:32:11.446
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 20:32:12.356
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 20:32:12.356
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-11 20:32:17.169
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 20:32:17.371
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.515
+!MESSAGE Removing HandlerImpl with the "org.eclipse.recommenders.news.rcp.handler.pollNewsFeeds" id.It points to the non available "bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.520
+!MESSAGE Removing HandlerImpl with the "org.eclipse.recommenders.news.rcp.handler.readNewsItems" id.It points to the non available "bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.521
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.gef.ui.palette_view" id and the "Palette" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.525
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.search.SearchResultView" id and the "Classic Search" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.528
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.views.ResourceNavigator" id and the "Navigator" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.532
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.common.snippets.internal.ui.SnippetsView" id and the "Snippets" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.534
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xml.ui.views.annotations.XMLAnnotationsView" id and the "Documentation" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.535
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xml.ui.contentmodel.view" id and the "Content Model" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.542
+!MESSAGE Removing PartDescriptorImpl with the "de.tobject.findbugs.view.buginfoview" id and the "Bug Info" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.543
+!MESSAGE Removing PartDescriptorImpl with the "de.tobject.findbugs.view.bugtreeview" id and the "Bug Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.545
+!MESSAGE Removing PartDescriptorImpl with the "net.sf.eclipsecs.ui.stats.views.MarkerStatsView" id and the "Checkstyle violations" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.549
+!MESSAGE Removing PartDescriptorImpl with the "net.sf.eclipsecs.ui.stats.views.GraphStatsView" id and the "Checkstyle violations chart" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.550
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.internet.monitor.view" id and the "TCP/IP Monitor" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.551
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.TypeHierarchy" id and the "Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.551
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.PackageExplorer" id and the "Script Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.553
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.callhierarchy.view" id and the "Call Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.554
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.SourceView" id and the "Declaration" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.555
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.JavadocView" id and the "Documentation" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.555
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.server.ui.ServersView" id and the "Servers" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.556
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.repository.RepositoriesView" id and the "SVN Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.557
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.svnproperties.SvnPropertiesView" id and the "SVN Properties" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.558
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.svnproperties.SvnRevPropertiesView" id and the "SVN Rev Properties" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.559
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.annotations.AnnotateView" id and the "SVN Annotate" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-11 20:32:17.560
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.conflicts.TreeConflictsView" id and the "SVN Tree Conflicts" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-10-11 20:39:07.450
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,com.github.spotbugs.plugin.eclipse,4.7.3.r202210170504-fa9e53a have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-10-11 20:39:07.451
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.github.spotbugs.plugin.eclipse,4.7.3.r202210170504-fa9e53a have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:02.869
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.collabnet.subversion.merge,4.2.0.1.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:02.869
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.clientadapter,1.10.0.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:02.869
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.clientadapter.svnkit,1.8.12.3.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:02.870
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.tigris.subversion.clientadapter.svnkit.feature,1.8.12.3.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:03.107
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.subclipse.core,4.3.4.202306191346.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:03.189
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.subclipse.ui,4.3.4.202306191346.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-10-11 20:42:03.190
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.tigris.subversion.subclipse,4.3.4.202306191346.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-10-11 20:42:04.514
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.trilead.ssh2,1.0.0.build222_185 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-10-11 20:42:04.514
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.tmatesoft.sqljet,1.1.13.r1341 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-10-11 20:42:04.515
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.tmatesoft.svnkit,1.10.2.r10793 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-10-11 20:42:04.515
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.tmatesoft.svnkit,1.10.2.r10793 have severely compromised security. Please report this concern to the artifact provider.
+!SESSION 2023-10-11 20:44:05.052 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 20:44:08.224
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 20:44:10.053
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 20:44:11.688
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 20:44:11.688
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-11 20:44:14.656
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 20:44:14.904
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.384
+!MESSAGE Library not found in plugin: /lib/spotbugs-annotations-4.7.3.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.384
+!MESSAGE Unable to find path for variable: FINDBUGS_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.385
+!MESSAGE Library not found in plugin: /lib/jsr305-3.0.1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.386
+!MESSAGE Unable to find path for variable: JSR305_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.387
+!MESSAGE Library not found in plugin: /lib/spotbugs-annotations-4.7.3.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.387
+!MESSAGE Unable to find path for variable: FINDBUGS_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.389
+!MESSAGE Library not found in plugin: /lib/jsr305-3.0.1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-10-11 20:46:14.389
+!MESSAGE Unable to find path for variable: JSR305_ANNOTATIONS
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-11 21:08:03.013
+!MESSAGE An internal error occurred during: "Fetching children of svn+ssh://stdlinux.coeit.osu.edu/share/CSE/project/c2231ax12/repos".
+!STACK 0
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.lang.Throwable java.lang.Throwable.cause accessible: module java.base does not "opens java.lang" to unnamed module @171622b1
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1543)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.list(SVNClientImpl.java:189)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getListWithLocks(AbstractJhlClientAdapter.java:466)
+	at org.tigris.subversion.subclipse.core.resources.RemoteFolder.getMembers(RemoteFolder.java:166)
+	at org.tigris.subversion.subclipse.core.resources.RemoteFolder.members(RemoteFolder.java:269)
+	at org.tigris.subversion.subclipse.ui.operations.FetchMembersOperation.execute(FetchMembersOperation.java:41)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.tigris.subversion.subclipse.ui.repository.model.SVNRepositoryRootElement.fetchDeferredChildren(SVNRepositoryRootElement.java:73)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-11 21:15:35.675 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 21:15:37.999
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 21:15:39.101
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 21:15:40.688
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 21:15:40.688
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-11 21:15:42.229
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 21:15:42.423
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-11 21:20:42.946 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 21:20:44.647
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 21:20:45.603
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 21:20:47.030
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 21:20:47.030
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-11 21:20:48.589
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 21:20:48.797
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-16 17:18:32.249 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-16 17:19:49.583
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-16 17:19:53.227
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-16 17:19:58.396
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-16 17:19:58.396
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-16 17:20:06.695
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-16 17:20:07.279
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-17 13:54:18.155 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-17 13:54:57.498
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-17 13:54:59.800
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-17 13:55:02.849
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-17 13:55:02.849
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-17 13:55:07.062
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-17 13:55:07.383
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-22 19:30:22.204 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-22 19:31:51.235
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-22 19:31:55.988
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-22 19:32:02.208
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-22 19:32:02.208
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-22 19:32:08.976
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-22 19:32:09.339
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-10-22 19:46:51.431
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\ListWithRetreat.fbwarnings.xml
+!SESSION 2023-10-30 19:48:31.018 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-30 19:51:32.049
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-30 19:51:34.096
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-30 19:51:37.032
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-30 19:51:37.032
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-30 19:51:47.160
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-30 19:51:47.784
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-30 19:57:37.578 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-30 19:57:41.547
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-30 19:57:43.127
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-30 19:57:45.401
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-30 19:57:45.401
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-30 19:57:49.856
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-30 19:57:50.352
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-10-30 21:27:06.216
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\ProgramAndStatement.fbwarnings.xml
+!SESSION 2023-11-01 18:17:36.963 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-01 18:18:20.854
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-01 18:18:22.934
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-01 18:18:25.016
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-01 18:18:25.016
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-01 18:18:30.260
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-01 18:18:30.649
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-11-01 23:20:37.880 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-01 23:20:43.505
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-01 23:20:45.860
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-01 23:20:50.124
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-01 23:20:50.124
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-01 23:20:57.457
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-01 23:20:58.056
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-11-02 14:08:28.234
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\ExpressionEvaluator.fbwarnings.xml
+!SESSION 2023-11-06 12:47:16.606 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-06 12:48:02.883
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-06 12:48:05.057
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-06 12:48:07.830
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-06 12:48:07.830
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-06 12:48:15.299
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-06 12:48:15.847
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-11-13 19:45:37.444 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-13 19:46:15.916
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-13 19:46:18.203
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-13 19:46:21.053
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-13 19:46:21.053
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-13 19:46:29.899
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-13 19:46:30.474
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-11-13 21:32:26.590
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\BLParser.fbwarnings.xml
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-13 21:43:09.200
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:286)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-13 21:53:10.999
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E160028: Commit failed (details follow):
+svn: E160028: File '/BLParser/src/Statement1Parse1.java' is out of date
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:286)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+!SESSION 2023-11-13 23:10:44.669 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-13 23:13:32.919
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-13 23:13:40.307
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-13 23:13:48.211
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-13 23:13:48.212
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-13 23:14:11.108
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-13 23:14:12.751
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-11-14 13:51:24.021 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-14 13:52:04.597
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-14 13:52:06.541
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-14 13:52:09.010
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-14 13:52:09.010
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-14 13:52:17.010
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-14 13:52:17.838
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-11-15 14:41:47.706 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-15 14:42:48.271
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-15 14:42:50.755
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-15 14:42:53.909
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-15 14:42:53.909
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-15 14:43:03.505
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-15 14:43:04.128
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-15 14:43:14.501
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1132)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand$1.run(UpdateResourcesCommand.java:105)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand.run(UpdateResourcesCommand.java:95)
+	at org.tigris.subversion.subclipse.ui.operations.UpdateOperation.execute(UpdateOperation.java:80)
+	at org.tigris.subversion.subclipse.ui.operations.RepositoryProviderOperation.execute(RepositoryProviderOperation.java:68)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:473)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1127)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.updateInternal(SvnNgAbstractUpdate.java:210)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.update(SvnNgAbstractUpdate.java:115)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:18)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:471)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-15 14:43:27.427
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1132)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand$1.run(UpdateResourcesCommand.java:105)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand.run(UpdateResourcesCommand.java:95)
+	at org.tigris.subversion.subclipse.ui.operations.UpdateOperation.execute(UpdateOperation.java:80)
+	at org.tigris.subversion.subclipse.ui.operations.RepositoryProviderOperation.execute(RepositoryProviderOperation.java:68)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:473)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1127)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.updateInternal(SvnNgAbstractUpdate.java:210)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.update(SvnNgAbstractUpdate.java:115)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:18)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:471)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+!SESSION 2023-11-15 14:43:32.868 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-15 14:43:37.495
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-15 14:43:39.218
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-15 14:43:41.615
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-15 14:43:41.615
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-15 14:43:50.328
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-15 14:43:51.139
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-15 14:44:00.858
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1132)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand$1.run(UpdateResourcesCommand.java:105)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand.run(UpdateResourcesCommand.java:95)
+	at org.tigris.subversion.subclipse.ui.operations.UpdateOperation.execute(UpdateOperation.java:80)
+	at org.tigris.subversion.subclipse.ui.operations.RepositoryProviderOperation.execute(RepositoryProviderOperation.java:68)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:473)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1127)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.updateInternal(SvnNgAbstractUpdate.java:210)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.update(SvnNgAbstractUpdate.java:115)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:18)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:471)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+!SESSION 2023-11-27 19:54:08.387 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-27 19:54:56.362
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-27 19:54:58.937
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-27 19:55:02.482
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-27 19:55:02.482
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-27 19:55:12.428
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-27 19:55:13.086
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-11-27 20:40:16.302
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\TagCloudGenerator.fbwarnings.xml
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 20:40:28.735
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E200009: Cannot commit 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/MethodStore.java' because it was moved from 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/ProgramWithIO.java' which is not part of the commit; both sides of the move must be committed together
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E200009: Cannot commit 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/MethodStore.java' because it was moved from 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/ProgramWithIO.java' which is not part of the commit; both sides of the move must be committed together
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E200009: Cannot commit 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/MethodStore.java' because it was moved from 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/ProgramWithIO.java' which is not part of the commit; both sides of the move must be committed together
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E200009: Cannot commit 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/MethodStore.java' because it was moved from 'C:/Users/yangz/Desktop/CSE 2231/OsuCseWsTemplate/workspace/TagCloudGenerator/src/ProgramWithIO.java' which is not part of the commit; both sides of the move must be committed together
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:185)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:36:27.046
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:239)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:36:45.548
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:239)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:37:42.940
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1132)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand$1.run(UpdateResourcesCommand.java:105)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand.run(UpdateResourcesCommand.java:95)
+	at org.tigris.subversion.subclipse.ui.operations.UpdateOperation.execute(UpdateOperation.java:80)
+	at org.tigris.subversion.subclipse.ui.operations.RepositoryProviderOperation.execute(RepositoryProviderOperation.java:68)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:473)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1127)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.updateInternal(SvnNgAbstractUpdate.java:210)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.update(SvnNgAbstractUpdate.java:115)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:18)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:471)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+!SESSION 2023-11-27 22:38:41.012 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-27 22:38:46.743
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-27 22:38:49.171
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-27 22:38:52.441
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-27 22:38:52.441
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-27 22:39:01.001
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-27 22:39:01.776
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:39:30.216
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:239)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:40:05.232
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1132)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand$1.run(UpdateResourcesCommand.java:105)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand.run(UpdateResourcesCommand.java:95)
+	at org.tigris.subversion.subclipse.ui.operations.UpdateOperation.execute(UpdateOperation.java:80)
+	at org.tigris.subversion.subclipse.ui.operations.RepositoryProviderOperation.execute(RepositoryProviderOperation.java:68)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:473)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1127)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.updateInternal(SvnNgAbstractUpdate.java:210)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.update(SvnNgAbstractUpdate.java:115)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:18)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:471)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2023-11-27 22:40:25.975
+!MESSAGE Problems reported while synchronizing SVNStatusSubscriber. 0 of 1 resources were synchronized.
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 0 2023-11-27 22:40:25.975
+!MESSAGE An error occurred synchronizing /TagCloudGenerator: Error getting status for resource P/TagCloudGenerator org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 1
+org.eclipse.team.core.TeamException: Error getting status for resource P/TagCloudGenerator org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.findChanges(SVNWorkspaceSubscriber.java:339)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.refresh(SVNWorkspaceSubscriber.java:264)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.refresh(SVNWorkspaceSubscriber.java:227)
+	at org.eclipse.team.internal.ui.synchronize.RefreshSubscriberParticipantJob.doRefresh(RefreshSubscriberParticipantJob.java:122)
+	at org.eclipse.team.internal.ui.synchronize.RefreshParticipantJob.run(RefreshParticipantJob.java:336)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.tigris.subversion.subclipse.core.SVNException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.subclipse.core.SVNException.wrapException(SVNException.java:94)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.run(StatusAndInfoCommand.java:60)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.findChanges(SVNWorkspaceSubscriber.java:304)
+	... 5 more
+Caused by: org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:606)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:564)
+	at org.tigris.subversion.subclipse.core.client.StatusCommand.execute(StatusCommand.java:78)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.execute(StatusAndInfoCommand.java:45)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.run(StatusAndInfoCommand.java:58)
+	... 6 more
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:164)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:136)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:584)
+	... 10 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.checkPath(SVNRepositoryImpl.java:248)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgGetStatus.run(SvnNgGetStatus.java:82)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgGetStatus.run(SvnNgGetStatus.java:27)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:162)
+	... 12 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 22 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 26 more
+!SUBENTRY 2 org.eclipse.team.core 4 0 2023-11-27 22:40:25.977
+!MESSAGE Error getting status for resource P/TagCloudGenerator org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.subclipse.core.SVNException.wrapException(SVNException.java:94)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.run(StatusAndInfoCommand.java:60)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.findChanges(SVNWorkspaceSubscriber.java:304)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.refresh(SVNWorkspaceSubscriber.java:264)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.refresh(SVNWorkspaceSubscriber.java:227)
+	at org.eclipse.team.internal.ui.synchronize.RefreshSubscriberParticipantJob.doRefresh(RefreshSubscriberParticipantJob.java:122)
+	at org.eclipse.team.internal.ui.synchronize.RefreshParticipantJob.run(RefreshParticipantJob.java:336)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:606)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:564)
+	at org.tigris.subversion.subclipse.core.client.StatusCommand.execute(StatusCommand.java:78)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.execute(StatusAndInfoCommand.java:45)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.run(StatusAndInfoCommand.java:58)
+	... 6 more
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:164)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:136)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:584)
+	... 10 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.checkPath(SVNRepositoryImpl.java:248)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgGetStatus.run(SvnNgGetStatus.java:82)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgGetStatus.run(SvnNgGetStatus.java:27)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:162)
+	... 12 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 22 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 26 more
+!SUBENTRY 3 org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:40:25.978
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:606)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:564)
+	at org.tigris.subversion.subclipse.core.client.StatusCommand.execute(StatusCommand.java:78)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.execute(StatusAndInfoCommand.java:45)
+	at org.tigris.subversion.subclipse.core.client.StatusAndInfoCommand.run(StatusAndInfoCommand.java:58)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.findChanges(SVNWorkspaceSubscriber.java:304)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.refresh(SVNWorkspaceSubscriber.java:264)
+	at org.tigris.subversion.subclipse.core.sync.SVNWorkspaceSubscriber.refresh(SVNWorkspaceSubscriber.java:227)
+	at org.eclipse.team.internal.ui.synchronize.RefreshSubscriberParticipantJob.doRefresh(RefreshSubscriberParticipantJob.java:122)
+	at org.eclipse.team.internal.ui.synchronize.RefreshParticipantJob.run(RefreshParticipantJob.java:336)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:164)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:136)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.getStatus(AbstractJhlClientAdapter.java:584)
+	... 10 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.checkPath(SVNRepositoryImpl.java:248)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgGetStatus.run(SvnNgGetStatus.java:82)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgGetStatus.run(SvnNgGetStatus.java:27)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.status(SVNClientImpl.java:162)
+	... 12 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 22 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 26 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:40:44.679
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:239)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:41:02.974
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:239)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-11-27 22:43:31.325
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:347)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand$1.run(CheckinResourcesCommand.java:154)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.CheckinResourcesCommand.run(CheckinResourcesCommand.java:119)
+	at org.tigris.subversion.subclipse.core.SVNTeamProvider.checkin(SVNTeamProvider.java:132)
+	at org.tigris.subversion.subclipse.ui.operations.CommitOperation.execute(CommitOperation.java:129)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:504)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.commit(AbstractJhlClientAdapter.java:339)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.doRun(SvnNgCommit.java:239)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:145)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgCommit.run(SvnNgCommit.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.wc2.SvnCommit.run(SvnCommit.java:198)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.commit(SVNClientImpl.java:502)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+!SESSION 2023-11-27 23:09:52.399 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-27 23:09:58.258
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-27 23:10:01.551
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-27 23:10:06.304
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-27 23:10:06.304
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-27 23:10:18.865
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-27 23:10:20.069
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-03 19:52:53.348 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 19:53:38.542
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 19:53:40.782
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-03 19:53:43.833
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-03 19:53:43.833
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-03 19:53:52.836
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-03 19:53:53.537
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-03 19:54:40.192 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 19:54:43.297
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 19:54:44.974
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-03 19:54:47.509
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-03 19:54:47.509
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-03 19:54:51.982
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-03 19:54:52.448
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-03 19:56:06.066 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 19:56:09.883
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 19:56:11.607
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-03 19:56:13.937
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-03 19:56:13.937
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-03 19:56:18.544
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-03 19:56:18.991
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-03 19:58:54.279 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 20:00:10.542
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-03 20:00:15.360
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-03 20:00:25.001
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-03 20:00:25.002
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-03 20:00:49.276
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-03 20:00:50.019
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-04 17:51:03.625 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-04 17:52:39.608
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-04 17:52:46.338
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.osgi 4 0 2023-12-04 17:52:49.272
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4944)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Control.createHandle(Control.java:718)
+	at org.eclipse.swt.widgets.Scrollable.createHandle(Scrollable.java:145)
+	at org.eclipse.swt.widgets.Composite.createHandle(Composite.java:294)
+	at org.eclipse.swt.widgets.Control.createWidget(Control.java:744)
+	at org.eclipse.swt.widgets.Scrollable.createWidget(Scrollable.java:160)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:116)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:85)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:99)
+	at org.eclipse.ui.splash.BasicSplashHandler.getBundleProgressMonitor(BasicSplashHandler.java:136)
+	at org.eclipse.ui.splash.BasicSplashHandler.getContent(BasicSplashHandler.java:222)
+	at org.eclipse.ui.internal.splash.EclipseSplashHandler.init(EclipseSplashHandler.java:99)
+	at org.eclipse.ui.internal.Workbench$3.run(Workbench.java:815)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:829)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:613)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2023-12-04 17:52:36.753 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-04 17:52:43.677
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-04 17:52:59.224
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-04 17:53:03.755
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-04 17:53:03.755
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-04 17:53:22.154
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-04 17:53:23.082
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-12-04 17:53:49.827
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\TagCloudGeneratorJava.fbwarnings.xml
+!SESSION 2023-12-10 20:05:55.341 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-10 20:07:27.213
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-10 20:07:32.318
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-10 20:07:38.547
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-10 20:07:38.547
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-10 20:07:50.491
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-10 20:07:51.249
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-12 23:32:39.924 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-12 23:33:30.182
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-12 23:33:32.868
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-12 23:33:36.046
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-12 23:33:36.046
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-12 23:33:46.166
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-12 23:33:46.808
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2023-12-12 23:34:14.341
+!MESSAGE org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+!STACK 0
+org.tigris.subversion.svnclientadapter.SVNClientException: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1132)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand$1.run(UpdateResourcesCommand.java:105)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin$6.run(SVNProviderPlugin.java:514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.tigris.subversion.subclipse.core.SVNProviderPlugin.run(SVNProviderPlugin.java:508)
+	at org.tigris.subversion.subclipse.core.commands.UpdateResourcesCommand.run(UpdateResourcesCommand.java:95)
+	at org.tigris.subversion.subclipse.ui.operations.UpdateOperation.execute(UpdateOperation.java:80)
+	at org.tigris.subversion.subclipse.ui.operations.RepositoryProviderOperation.execute(RepositoryProviderOperation.java:68)
+	at org.tigris.subversion.subclipse.ui.operations.SVNOperation.run(SVNOperation.java:88)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:155)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:83)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.subversion.javahl.ClientException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.apache.subversion.javahl.ClientException.fromException(ClientException.java:117)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.getClientException(SVNClientImpl.java:1535)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:473)
+	at org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter.update(AbstractJhlClientAdapter.java:1127)
+	... 13 more
+Caused by: org.tmatesoft.svn.core.SVNException: svn: E210002: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:70)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:57)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:145)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNConnection.open(SVNConnection.java:80)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.openConnection(SVNRepositoryImpl.java:1282)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNRepositoryImpl.testConnection(SVNRepositoryImpl.java:100)
+	at org.tmatesoft.svn.core.io.SVNRepository.getRepositoryUUID(SVNRepository.java:268)
+	at org.tmatesoft.svn.core.internal.wc2.SvnRepositoryAccess.createRepository(SvnRepositoryAccess.java:103)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgRepositoryAccess.createRepository(SvnNgRepositoryAccess.java:211)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.updateInternal(SvnNgAbstractUpdate.java:210)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgAbstractUpdate.update(SvnNgAbstractUpdate.java:115)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:40)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgUpdate.run(SvnNgUpdate.java:18)
+	at org.tmatesoft.svn.core.internal.wc2.ng.SvnNgOperationRunner.run(SvnNgOperationRunner.java:20)
+	at org.tmatesoft.svn.core.internal.wc2.SvnOperationRunner.run(SvnOperationRunner.java:21)
+	at org.tmatesoft.svn.core.wc2.SvnOperationFactory.run(SvnOperationFactory.java:1239)
+	at org.tmatesoft.svn.core.wc2.SvnOperation.run(SvnOperation.java:294)
+	at org.tmatesoft.svn.core.javahl17.SVNClientImpl.update(SVNClientImpl.java:471)
+	... 14 more
+Caused by: java.io.IOException: There was a problem while connecting to stdlinux.coeit.osu.edu:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:817)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openConnection(SshHost.java:225)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshHost.openSession(SshHost.java:153)
+	at org.tmatesoft.svn.core.internal.io.svn.ssh.SshSessionPool.openSession(SshSessionPool.java:85)
+	at org.tmatesoft.svn.core.internal.io.svn.SVNSSHConnector.open(SVNSSHConnector.java:122)
+	... 29 more
+Caused by: java.net.UnknownHostException: No such host is known (stdlinux.coeit.osu.edu)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1256)
+	at com.trilead.ssh2.transport.TransportManager.createInetAddress(TransportManager.java:166)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:345)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:459)
+	at com.trilead.ssh2.Connection.connect(Connection.java:757)
+	... 33 more
+!SESSION 2023-12-18 13:00:25.510 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-18 13:00:57.620
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-18 13:00:59.354
+!MESSAGE Logback config file: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-18 13:01:01.327
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-18 13:01:01.327
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-18 13:01:08.111
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-18 13:01:08.582
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yangz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 1 0 2023-12-18 13:06:14.488
+!MESSAGE creating new bug collection: C:\Users\yangz\Desktop\CSE 2231\OsuCseWsTemplate\workspace\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\BankingInterface.fbwarnings.xml
